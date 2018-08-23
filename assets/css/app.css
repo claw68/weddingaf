@@ -29,6 +29,15 @@ body {
     font-size: 18px;
 }
 
+p.subtitle {
+  font-family: 'Berlingske Serif';
+  text-transform: uppercase;
+  color: #5b8b7e;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
 h1, h2 {
   font-family: 'Lovely Day';
 }
