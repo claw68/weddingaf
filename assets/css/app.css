@@ -29,6 +29,11 @@ body {
     font-size: 18px;
 }
 
+.jumbotron {
+  background: transparent;
+  text-align: center;
+}
+
 p.subtitle {
   font-family: 'Berlingske Serif';
   text-transform: uppercase;
