@@ -23,3 +23,21 @@
     font-family: 'Lovely Day';
     src: url('../fonts/lovely-day.ttf');
 }
+
+body {
+    font-family: 'Berlingske Serif';
+    font-size: 18px;
+}
+
+h1, h2 {
+  font-family: 'Lovely Day';
+}
+
+ul {
+  list-style: none;
+}
+
+h3 {
+  font-family: 'Berlingske Serif Bold';
+  text-transform: uppercase;
+}
