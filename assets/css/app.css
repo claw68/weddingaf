@@ -30,13 +30,43 @@ body {
     color: #3f3f3f;
 }
 
+.container {
+  background-color: transparent;
+  background-position-x: 30%;
+  background-position-y: -490px;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-image: url("../img/flower-top.jpg");
+  background-size: 1170px auto;
+  background-origin: padding-box;
+  background-clip: border-box;
+}
+
 a {
   text-decoration: none;
 }
 
 .jumbotron {
+  padding-top: 60px;
   background: transparent;
   text-align: center;
+  padding-bottom: 15px;
+}
+
+.jumbotron.title {
+  padding-top: 150px;
+}
+
+.jumbotron.title h1 {
+  font-size: 45px;
+}
+
+.jumbotron h2 {
+  font-size: 37px;
+}
+
+hr {
+  margin-top: 80px;
 }
 
 p.subtitle {
@@ -45,7 +75,7 @@ p.subtitle {
   color: #5b8b7e;
   text-align: center;
   letter-spacing: 2px;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 h1, h2 {
