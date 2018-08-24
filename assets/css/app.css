@@ -47,10 +47,10 @@ a {
 }
 
 .jumbotron {
-  padding-top: 60px;
+  padding-top: 65px;
   background: transparent;
   text-align: center;
-  padding-bottom: 15px;
+  padding-bottom: 0px;
 }
 
 .jumbotron.title {
@@ -112,4 +112,7 @@ h3 {
   font-family: 'Berlingske Serif Bold';
   text-transform: uppercase;
   color: #5b8b7e;
+  padding-bottom: 15px;
+  padding-top: 35px;
+  font-size: 19px;
 }
