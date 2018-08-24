@@ -58,6 +58,17 @@ ul {
   padding-left: 0px;
 }
 
+ul.ceremony {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-family: 'Berlingske Serif';
+  color: #5b8b7e;
+}
+
+ul.secondary {
+  margin-bottom: 0px;
+}
+
 ul li {
   text-align: center;
 }
