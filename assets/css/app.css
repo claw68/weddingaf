@@ -30,6 +30,10 @@ body {
     color: #3f3f3f;
 }
 
+a {
+  text-decoration: none;
+}
+
 .jumbotron {
   background: transparent;
   text-align: center;
@@ -46,10 +50,16 @@ p.subtitle {
 
 h1, h2 {
   font-family: 'Lovely Day';
+  line-height: normal;
 }
 
 ul {
   list-style: none;
+  padding-left: 0px;
+}
+
+ul li {
+  text-align: center;
 }
 
 h3 {
