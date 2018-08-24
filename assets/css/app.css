@@ -126,3 +126,17 @@ h3.forward, h3.rsvp {
   letter-spacing: 2px;
   font-size: 20px;
 }
+
+.row.registry {
+  padding-bottom: 200px;
+
+  background-color: transparent;
+  background-position-x: 25%;
+  background-position-y: -340px;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-image: url("../img/flower-bot.jpg");
+  background-size: 1170px auto;
+  background-origin: padding-box;
+  background-clip: border-box;
+}
