@@ -42,7 +42,7 @@ body {
   background-clip: border-box;
 }
 
-a, a:focus, a:active {
+a, a:focus, a:active, a:hover {
   text-decoration: none;
 }
 
@@ -119,4 +119,10 @@ h3 {
   padding-bottom: 15px;
   padding-top: 35px;
   font-size: 19px;
+}
+
+h3.forward, h3.rsvp {
+  font-family: 'Berlingske Serif';
+  letter-spacing: 2px;
+  font-size: 20px;
 }
