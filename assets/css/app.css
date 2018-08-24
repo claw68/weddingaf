@@ -42,7 +42,7 @@ body {
   background-clip: border-box;
 }
 
-a {
+a, a:focus, a:active {
   text-decoration: none;
 }
 
@@ -76,6 +76,10 @@ p.subtitle {
   text-align: center;
   letter-spacing: 2px;
   font-size: 17px;
+}
+
+p.subtitle a {
+  color: #5b8b7e;
 }
 
 h1, h2 {
