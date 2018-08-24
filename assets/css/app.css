@@ -1,22 +1,22 @@
 @font-face {
     font-family: 'Berlingske Serif';
-    src: url('../fonts/berlingske-serif-regular.otf') format('truetype');
+    src: url('../fonts/berlingske-serif-regular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Berlingske Serif Bold';
-    src: url('../fonts/berlingske-serif-bold.otf') format('truetype');
-    font-weight: bold;
+    src: url('../fonts/berlingske-serif-bold.otf') format('opentype');
+    font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Berlingske Serif Italic';
-    src: url('../fonts/berlingske-serif-italic.otf') format('truetype');
+    src: url('../fonts/berlingske-serif-italic.otf') format('opentype');
     font-weight: normal;
-    font-style: italic;
+    font-style: normal;
 }
 
 @font-face {
