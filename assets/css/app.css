@@ -51,6 +51,7 @@ a, a:focus, a:active, a:hover {
   background: transparent;
   text-align: center;
   padding-bottom: 0px;
+  line-height: 85px;
 }
 
 .jumbotron.title {
