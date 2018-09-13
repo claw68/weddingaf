@@ -42,6 +42,40 @@ body {
   background-clip: border-box;
 }
 
+@media (min-width: 390px) {
+  .container {
+    background-position-x: 25%;
+  }
+}
+
+@media (min-width: 550px) {
+  .container {
+    background-position-x: 20%;
+  }
+}
+
+@media (min-width: 650px) {
+  .container {
+    background-position-x: 10%;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    background-position-x: 0%;
+    background-position-y: -640px;
+    background-size: 1380px auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    background-position-x: 0px;
+    background-position-y: -750px;
+    background-size: 1580px auto;
+  }
+}
+
 a, a:focus, a:active, a:hover {
   text-decoration: none;
 }
