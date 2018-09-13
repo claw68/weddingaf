@@ -86,7 +86,8 @@ and (orientation : landscape) {
 
 .jumbotron h2 {
   font-size: 37px;
-  line-height: 65px;
+  line-height: 70px;
+  padding: 15px 0;
 }
 
 hr {
@@ -104,6 +105,7 @@ p.subtitle {
 
 p.subtitle a {
   color: #5b8b7e;
+  font-size: 23px;
 }
 
 p.together {
