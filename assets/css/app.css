@@ -60,7 +60,28 @@ a, a:focus, a:active, a:hover {
 .jumbotron.title h1 {
   margin-top: 5px;
   font-size: 45px;
-  line-height: 85px;
+  line-height: 95px;
+}
+
+.jumbotron.title h1 .andviana {
+  font-size: 22px;
+  line-height: 20px;
+}
+
+.jumbotron.title h1 .andviana .aviana {
+  display: none;
+}
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : landscape) {
+  .jumbotron.title h1 .andviana .and {
+    display: none;
+  }
+  .jumbotron.title h1 .andviana .aviana {
+    display: block;
+  }
 }
 
 .jumbotron h2 {
