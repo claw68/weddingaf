@@ -51,7 +51,6 @@ a, a:focus, a:active, a:hover {
   background: transparent;
   text-align: center;
   padding-bottom: 0px;
-  line-height: 85px;
 }
 
 .jumbotron.title {
@@ -61,10 +60,12 @@ a, a:focus, a:active, a:hover {
 .jumbotron.title h1 {
   margin-top: 5px;
   font-size: 45px;
+  line-height: 85px;
 }
 
 .jumbotron h2 {
   font-size: 37px;
+  line-height: 70px;
 }
 
 hr {
