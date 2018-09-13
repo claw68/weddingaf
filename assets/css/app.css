@@ -219,6 +219,14 @@ p.adults {
   background-clip: border-box;
 }
 
+@media (min-width: 1200px) {
+  .row.registry {
+    background-position-x: 0%;
+    background-position-y: 93%;
+    background-size: 1250px auto;
+  }
+}
+
 .row.registry h3 {
   text-align: center;
   line-height: 30px;
@@ -230,6 +238,12 @@ p.adults {
   font-size: 17px;
   text-align: left;
   line-height: 29px;
+}
+
+@media (min-width: 410px) {
+  .row.registry p {
+    text-align: center;
+  }
 }
 
 .row.registry p.visit {
