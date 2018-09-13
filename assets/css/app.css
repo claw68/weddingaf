@@ -86,7 +86,7 @@ and (orientation : landscape) {
 
 .jumbotron h2 {
   font-size: 37px;
-  line-height: 70px;
+  line-height: 65px;
 }
 
 hr {
@@ -99,7 +99,7 @@ p.subtitle {
   color: #5b8b7e;
   text-align: center;
   letter-spacing: 2px;
-  font-size: 17px;
+  font-size: 16px;
 }
 
 p.subtitle a {
@@ -155,6 +155,10 @@ h3.forward, h3.rsvp {
   font-size: 20px;
 }
 
+h3.forward {
+  font-size: 18px;
+}
+
 .row.registry {
   padding-bottom: 200px;
 
@@ -167,4 +171,21 @@ h3.forward, h3.rsvp {
   background-size: 1170px auto;
   background-origin: padding-box;
   background-clip: border-box;
+}
+
+.row.registry h3 {
+  text-align: center;
+  line-height: 30px;
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+
+.row.registry p {
+  font-size: 17px;
+  text-align: left;
+  line-height: 29px;
+}
+
+.row.registry p.visit {
+  text-align: center;
 }
