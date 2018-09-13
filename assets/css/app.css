@@ -161,6 +161,12 @@ h3.forward {
   font-size: 18px;
 }
 
+p.adults {
+  letter-spacing: 1px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
 .row.registry {
   padding-bottom: 200px;
 
