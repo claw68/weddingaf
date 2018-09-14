@@ -74,16 +74,16 @@ else {
 				}
 
 				if (min_width(1200)) {
-					xpos = "-20px";
+					xpos = "-130px";
 					paddingTop = "100";
 				} else if (min_width(992)) {
-					xpos = "-100px";
+					xpos = "-220px";
 					paddingTop = "100";
 				} else if (min_width(768)) {
-					xpos = "-210px";
-					paddingTop = "70";
+					xpos = "-310px";
+					paddingTop = "100";
 				} else if (min_width(667)) {
-					xpos = "-350px";
+					xpos = "-340px";
 					paddingTop = "70";
 				} else {
 					xpos = "0px";

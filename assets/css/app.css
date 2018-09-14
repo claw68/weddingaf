@@ -186,28 +186,22 @@ hr.rsvp-hr {
 
 @media (min-width: 768px) {
   .rsvp-container {
-    background-size: 1190px auto;
+    background-size: 1260px auto;
   }
   .rsvp-container .row {
-    padding: 0px 160px;
+    padding: 0px 180px;
   }
 }
 
 @media (min-width: 992px) {
   .rsvp-container {
-    background-size: 1210px auto;
-  }
-  .rsvp-container .row {
-    padding: 0px 210px;
+    background-size: 1270px auto;
   }
 }
 
 @media (min-width: 1200px) {
   .rsvp-container {
-    background-size: 1230px auto;
-  }
-  .rsvp-container .row {
-    padding: 0px 330px;
+    background-size: 1300px auto;
   }
 }
 
