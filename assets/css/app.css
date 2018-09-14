@@ -31,7 +31,6 @@ body {
     background-image: url("../img/pattern.png");
     background-repeat: repeat;
     background-color: #fafafa;
-
 }
 
 .container {
@@ -153,6 +152,19 @@ p.together {
 h1, h2 {
   font-family: 'Lovely Day';
   line-height: normal;
+}
+
+.rsvp-container {
+  margin-left: -15px;
+  margin-right: -15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: -20px;
+  padding-bottom: 80px;
+}
+
+hr.rsvp-hr {
+  margin-top: 0px;
 }
 
 @media (min-width: 768px) {
