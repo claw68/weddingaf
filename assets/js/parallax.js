@@ -73,15 +73,18 @@ else {
 					return;
 				}
 
-				if (min_width(1024)) {
-					xpos = "75%";
+				if (min_width(1200)) {
+					xpos = "-20px";
 					paddingTop = "100";
-				} else if (min_width(640)) {
-					xpos = "280px";
+				} else if (min_width(992)) {
+					xpos = "-100px";
 					paddingTop = "100";
+				} else if (min_width(768)) {
+					xpos = "-220px";
+					paddingTop = "70";
 				} else {
-					xpos = "147px";
-					paddingTop = "158";
+					xpos = "0px";
+					paddingTop = "100";
 				}
 
 				$this.css('backgroundPosition', xpos + " " + Math.round(((firstTop - pos) * speedFactor) - paddingTop) + "px");

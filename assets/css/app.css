@@ -168,6 +168,41 @@ hr.rsvp-hr {
 }
 
 @media (min-width: 768px) {
+  .rsvp-container {
+    background-color: transparent;
+    background-position-x: 20px;
+    background-position-y: -70px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-image: url("../img/flower-right.jpg");
+    background-size: 1180px auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+  }
+  .rsvp-container .row {
+    padding: 0px 160px;
+  }
+}
+
+@media (min-width: 992px) {
+  .rsvp-container {
+    background-size: 1210px auto;
+  }
+  .rsvp-container .row {
+    padding: 0px 210px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .rsvp-container {
+    background-size: 1230px auto;
+  }
+  .rsvp-container .row {
+    padding: 0px 330px;
+  }
+}
+
+@media (min-width: 768px) {
   .entourage ul.arrhae {
     padding-bottom: 15px;
     padding-top: 35px;
