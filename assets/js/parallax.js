@@ -80,7 +80,10 @@ else {
 					xpos = "-100px";
 					paddingTop = "100";
 				} else if (min_width(768)) {
-					xpos = "-220px";
+					xpos = "-210px";
+					paddingTop = "70";
+				} else if (min_width(667)) {
+					xpos = "-350px";
 					paddingTop = "70";
 				} else {
 					xpos = "0px";

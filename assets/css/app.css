@@ -167,7 +167,7 @@ hr.rsvp-hr {
   margin-top: 0px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 667px) {
   .rsvp-container {
     background-color: transparent;
     background-position-x: 20px;
@@ -175,9 +175,18 @@ hr.rsvp-hr {
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-image: url("../img/flower-right.jpg");
-    background-size: 1180px auto;
+    background-size: 1250px auto;
     background-origin: padding-box;
     background-clip: border-box;
+  }
+  .rsvp-container .row {
+    padding: 0px 150px;
+  }
+}
+
+@media (min-width: 768px) {
+  .rsvp-container {
+    background-size: 1190px auto;
   }
   .rsvp-container .row {
     padding: 0px 160px;
