@@ -142,6 +142,9 @@ p.subtitle {
 
 p.subtitle a {
   color: #5b8b7e;
+}
+
+p.subtitle a span {
   font-size: 30px;
 }
 
