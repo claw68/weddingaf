@@ -318,6 +318,15 @@ p.facebook a span {
   font-size: 25px;
 }
 
+.row.wear {
+  letter-spacing: 1px;
+}
+
+h3.no-dark {
+  font-family: 'Berlingske Serif';
+  letter-spacing: 2px;
+}
+
 .row.registry {
   padding-bottom: 200px;
 
