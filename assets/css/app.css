@@ -286,8 +286,14 @@ h3 {
   font-size: 19px;
 }
 
-h3.forward, h3.rsvp {
+h3.forward {
   font-family: 'Berlingske Serif';
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+h3.rsvp {
+  font-family: 'Berlingske Serif Bold';
   letter-spacing: 2px;
   font-size: 20px;
 }
@@ -299,7 +305,17 @@ h3.forward {
 p.adults {
   letter-spacing: 1px;
   font-size: 18px;
+}
+
+p.facebook a {
+  color: #5b8b7e;
+  font-family: 'Berlingske Serif';
+  letter-spacing: 2px;
   text-transform: uppercase;
+}
+
+p.facebook a span {
+  font-size: 25px;
 }
 
 .row.registry {
