@@ -43,6 +43,7 @@ body {
   background-size: 1170px auto;
   background-origin: padding-box;
   background-clip: border-box;
+  box-shadow: 0px 5px 15px 3px rgba(0,0,0,0.2);
 }
 
 @media (min-width: 390px) {
@@ -63,9 +64,29 @@ body {
   }
 }
 
+@media (min-width: 778px) {
+  .container {
+    margin-top: 2px;
+    margin-bottom: 5px;
+  }
+}
+
+@media (min-width: 788px) {
+  .container {
+    margin-top: 7px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 798px) {
+  .container {
+    margin-bottom: 15px;
+  }
+}
+
 @media (min-width: 992px) {
   .container {
-    background-position-x: 0%;
+    background-position-x: 0px;
     background-position-y: -640px;
     background-size: 1380px auto;
   }
