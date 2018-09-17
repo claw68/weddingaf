@@ -407,6 +407,12 @@ h3.no-dark {
   }
 }
 
+@media (min-width: 420px) {
+  .row.registry p {
+    font-size: 18px;
+  }
+}
+
 .row.registry p.visit {
   text-align: center;
 }
