@@ -165,6 +165,24 @@ p.subtitle {
   font-size: 16px;
 }
 
+@media (min-width: 667px) {
+  p.subtitle {
+    padding: 0px 100px;
+  }
+}
+
+@media (min-width: 768px) {
+  p.subtitle {
+    padding: 0px 150px;
+  }
+}
+
+@media (min-width: 992px) {
+  p.subtitle {
+    padding: 0px;
+  }
+}
+
 p.subtitle a {
   color: #5b8b7e;
 }
@@ -207,17 +225,11 @@ hr.rsvp-hr {
     background-origin: padding-box;
     background-clip: border-box;
   }
-  .rsvp-container .row {
-    padding: 0px 150px;
-  }
 }
 
 @media (min-width: 768px) {
   .rsvp-container {
     background-size: 1260px auto;
-  }
-  .rsvp-container .row {
-    padding: 0px 180px;
   }
 }
 
