@@ -286,10 +286,14 @@ ul {
 }
 
 ul.ceremony {
-  margin-top: 20px;
+  margin-top: 25px;
   margin-bottom: 5px;
   font-family: 'Berlingske Serif';
   color: #5b8b7e;
+}
+
+ul.ceremony.first {
+  margin-top: 0px;
 }
 
 ul.secondary {
@@ -299,9 +303,7 @@ ul.secondary {
 @media (min-width: 768px) {
   ul.ceremony {
     margin-top: 0px;
-  }
-  ul.secondary {
-    margin-bottom: 10px;
+    margin-bottom: 0px;
   }
 }
 
