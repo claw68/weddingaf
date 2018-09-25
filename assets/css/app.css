@@ -246,25 +246,27 @@ hr.rsvp-hr {
 }
 
 @media (min-width: 768px) {
-  .entourage ul.arrhae {
-    padding-bottom: 15px;
-    padding-top: 35px;
+
+  .entourage h3.bible-title, .entourage ul.bible {
     margin-top: 20px;
-    margin-bottom: 10px;
+    padding-top: 35px;
+    padding-bottom: 7px;
+    margin-bottom: 5px;
   }
 
-  .entourage ul.ring {
-    padding-bottom: 15px;
-    padding-top: 35px;
-    margin-top: 20px;
-    margin-bottom: 10px;
+  .entourage h3.ring-title, .entourage h3.arrhae-title, .entourage h3.flower-title,
+  .entourage ul.ring, .entourage ul.arrhae {
+    margin-top: 10px;
+    padding-top: 17px;
+    padding-bottom: 7px;
+    margin-bottom: 5px;
   }
 
   .entourage ul.flower {
-    padding-bottom: 15px;
-    padding-top: 7px;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-top: 17px;
+    padding-bottom: 7px;
+    margin-bottom: 5px;
   }
 }
 
