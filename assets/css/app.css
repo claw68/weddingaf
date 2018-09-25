@@ -410,3 +410,10 @@ h3.no-dark {
 .row.registry p.visit {
   text-align: center;
 }
+
+p.visit span.account {
+  font-family: 'Berlingske Serif';
+  color: #5b8b7e;
+  font-size: 19px;
+  letter-spacing: 1px;
+}
