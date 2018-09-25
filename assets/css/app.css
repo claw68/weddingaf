@@ -21,7 +21,9 @@
 
 @font-face {
     font-family: 'Lovely Day';
-    src: url('../fonts/lovely-day.ttf');
+    src: url('../fonts/lovely-day.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
